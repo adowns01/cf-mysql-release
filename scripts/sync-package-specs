@@ -37,8 +37,6 @@ sync_package gra-log-purger -app gra-log-purger/... &
 sync_package galera-healthcheck -app github.com/cloudfoundry-incubator/galera-healthcheck/... &
 sync_package quota-enforcer -app github.com/pivotal-cf-experimental/cf-mysql-quota-enforcer/... &
 sync_package bootstrap -app github.com/cloudfoundry-incubator/cf-mysql-bootstrap/... &
-GOPATH=$GOPATH/src/github.com/cloudfoundry-incubator/route-registrar/Godeps/_workspace:$GOPATH \
-sync_package cf-mysql-route-registrar -app github.com/cloudfoundry-incubator/route-registrar/... &
 
 sync_package acceptance-tests \
     -test github.com/cloudfoundry-incubator/cf-mysql-acceptance-tests/... \

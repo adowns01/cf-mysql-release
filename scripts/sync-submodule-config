@@ -19,7 +19,6 @@ go install github.com/vito/gosub
 
   # exclude these otherwise `gosub sync` will delete them
   echo gra-log-purger # not yet a submodule
-  echo github.com/cloudfoundry-incubator/route-registrar # uses Godeps
   echo broker-registrar  # non-go project
   echo cf-mysql-broker   # non-go project
   echo cf-mysql-common   # non-go project
